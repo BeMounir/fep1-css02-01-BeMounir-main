@@ -1,0 +1,28 @@
+/* === DO NOT TOUCH THIS PIECE === */
+.responsive > * {
+    background: lightgrey;
+}
+/* === / === */
+
+/* Add your styles here */
+
+
+.responsive--multicol {
+    display: grid;
+    column-gap: 10px;
+    column-count: 3;
+}
+
+.responsive--flexbox {
+    display: flex;
+}
+
+.responsive--flexbox > * {
+    flex-grow: 1;
+}
+
+.responsive--grid {
+    display: grid;
+    grid-template-columns: repeat(5);
+    grid-auto-flow: column;
+}
